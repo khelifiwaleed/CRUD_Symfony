@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+display_blog:
+    path: /
+    controller: App\Controller\BlogController::index
+
+modifBlog:
+    path: /modifBlog/{id}
+    controller: App\Controller\BlogController::modifBlog
+
+walidBlog:
+    path: /walid
+    controller: App\Controller\BlogController::WalidController
